@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 50px;
+  line-height: 2;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5Rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+h4 {
+font-style: italic;
+}
+
+.first-container {
+  background-color: #C6D9E8;
+  opacity: 90%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.skill-row {
+  width: 70%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+  line-height: 2;
+}
+
+.skill-table {
+  vertical-align: baseline;
+}
+
+
+.second-container {}
+
+.third-container {
+  padding-top: 50px;
+}
+
+
+.profile-img {
+  height: 200px;
+  border-radius: 80%;
+}
+
+.skills-img {
+  width: 20%;
+}
+
+.language-img {
+  width: 20%;
+}
+
+.personal-img {
+  width: 20%;
+}
+.prog {
+text-align: right;}
+.level {
+  text-align: left;
+
+}
+.linkedin-img {
+  height: 30px;
+}
+.gmail-img {
+  height: 30px;
+}
+
+.timeline{
+  position: relative;
+  width: 70%;
+  margin: 100px auto 100px auto;}
+
+  .timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #66BFBF;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+}
+
+.left{
+  position: relative;
+  width: 45%;
+  margin-left: 0%;
+ text-align: right;
+}
+
+.right{
+  position: relative;
+  right: 0;
+  left: auto;
+  width: 45%;
+  margin-left: 55%;
+  text-align: left;
+
+}
+
+.content {
+  text-align: justify;
+  margin-left: 10%;
+  line-height: 1.5;
+}
